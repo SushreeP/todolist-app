@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <fieldset>
+      <legend>Todo List App</legend>
+      <form onsubmit="addTask(event)">
+        <input type="text" placeholder="Enter task" id="task" required />
+        <button type="submit">Add</button>
+      </form>
+      <hr />
+      <button id="removeAll" onclick="removeAll()">Clean my board</button>
+      <ul class="currenttasks"></ul>
+    </fieldset>
+    <fieldset class="footer">
+      <p>Click on the item to mark it done.</p>
+      <p>Click on the 'x' to remove it.</p>
+    </fieldset>
+    <script src="index.js" async defer></script>
+  </body>
+</html>
