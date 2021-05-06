@@ -138,17 +138,6 @@ fieldset {
   padding: 10%;
 }
 
-@media screen and (max-width: 350px) {
-  fieldset {
-    max-width: 85vw;
-  }
-  form {
-    flex-direction: column;
-  }
-  input[type="text"] {
-    margin-right: 0;
-  }
-}
 legend {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -238,6 +227,7 @@ p {
   padding: 0.5rem 10%;
   margin: 2px auto;
 }
+
 @media screen and (max-width: 350px) {
   fieldset {
     max-width: 85vw;
@@ -246,6 +236,6 @@ p {
     flex-direction: column;
   }
   input[type="text"] {
-    margin: 0 0 3px;
+    margin-right: 0;
   }
 }
